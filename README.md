@@ -1,2 +1,2 @@
 # vagrant
-just for testing
+vagrant file for Ubuntu 20.04 LTS
