@@ -19,4 +19,4 @@ echo "anoop ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 # Update bashrc file
 echo "export TERM=xterm" >> /etc/bashrc
 
-# Update vimrc file
+
