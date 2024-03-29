@@ -12,9 +12,9 @@ echo -e "admin\nadmin" | passwd root >/dev/null 2>&1
 
 # Set local user account
 echo "Set up local user account"
-useradd -m -s /bin/bash bob
-echo -e "admin\nadmin" | passwd bob >/dev/null 2>&1
-echo "bob ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+useradd -m -s /bin/bash anoop
+echo -e "admin\nadmin" | passwd anoop >/dev/null 2>&1
+echo "anoop ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
 # Update bashrc file
 echo "export TERM=xterm" >> /etc/bashrc
